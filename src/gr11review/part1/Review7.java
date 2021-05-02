@@ -7,7 +7,6 @@ public class Review7{
     
     BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
 
-    //Input sentence
     String theSentence = key.readLine();
 
     int sentenceLength = theSentence.length();
