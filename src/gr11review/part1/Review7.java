@@ -12,6 +12,7 @@ public class Review7{
 
     int sentenceLength = theSentence.length();
     int spaceCount = 0;
+    int aCount = 0;
     String oddChars = "";
 
     //Prints number of chars
@@ -27,11 +28,21 @@ public class Review7{
     //Prints number of spaces
     System.out.println("There are " + spaceCount + " spaces in the sentence.");
 
+    //Counts number of a's
+    for (int i = 0; i < sentenceLength; i++){
+      if (theSentence.charAt(i) == 'a'){
+        aCount++;
+      }
+    }
+
+    //Prints number of a's
+    System.out.println("There are " + aCount + " letter a in the sentence.");
+
     //Creates string with odd characters and prints it
     for (int i = 0; i < Math.ceil(sentenceLength / 2.0); i++){
       oddChars = oddChars + "-";
     }
-    
+
     System.out.println(oddChars);
   }
 }
