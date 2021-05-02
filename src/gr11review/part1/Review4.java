@@ -21,7 +21,7 @@ public class Review4{
     double total;
 
     NumberFormat priceFormat = new DecimalFormat("###,###,##0.00");
-    BufferedReader key = new BufferedReader(new InputStreamReade(System.in));
+    BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
 
     //input amount of items bought
     System.out.print("How many items do you want to buy? ");
