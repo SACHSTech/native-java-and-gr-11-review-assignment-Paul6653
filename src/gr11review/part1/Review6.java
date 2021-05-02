@@ -16,6 +16,7 @@ public class Review6{
     double tax = 0;
     double total = 0;
 
+    //Inputs item prices until a zero input
     while (itemPrice != 0){
       System.out.print("Enter the price for an item: ");
       itemPrice = Double.parseDouble(key.readLine());
