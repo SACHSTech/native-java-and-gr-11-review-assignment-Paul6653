@@ -11,17 +11,14 @@ public class Review6{
 
     BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
 
-    double itemPrice = 0;
+    double itemPrice = 1;
     double subtotal = 0;
     double tax = 0;
     double total = 0;
-    int itemCount = 0;
 
     while (itemPrice != 0){
-      itemCount++;
-
-      System.out.print("Enter the price for item " + itemCount + ": ");
-      itemPrice = Double.parseDouble(key.readLine();
+      System.out.print("Enter the price for an item: ");
+      itemPrice = Double.parseDouble(key.readLine());
 
       subtotal = subtotal + itemPrice;
     }
