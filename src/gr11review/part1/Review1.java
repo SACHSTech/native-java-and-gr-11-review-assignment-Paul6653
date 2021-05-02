@@ -2,6 +2,12 @@ package gr11review.part1;
 
 import java.io.*;
 
+/**
+  * Takes month number and day number as input
+  * Prints day of the year
+  * @author: P.Tran
+  */
+
 public class Review1{
   public static void main(String[] args) throws IOException{
 

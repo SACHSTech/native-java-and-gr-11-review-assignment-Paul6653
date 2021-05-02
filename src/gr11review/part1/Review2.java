@@ -2,6 +2,11 @@ package gr11review.part1;
 
 import java.io.*;
 
+/**
+  * Prints a joke depending on a menu choice
+  * @author: P.Tran
+  */
+
 public class Review2{
   public static void main(String[] args) throws IOException{
 

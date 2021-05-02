@@ -2,6 +2,12 @@ package gr11review.part1;
 
 import java.io.*;
 
+/**
+  * Prints odd numbers from 20 to 100
+  * Prints numbers from 29 to 2 in descending order
+  * @author: P.Tran
+  */
+
 public class Review3{
   public static void main(String[] args) throws IOException{
 

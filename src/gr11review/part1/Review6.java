@@ -4,6 +4,12 @@ import java.io.*;
 import java.text.NumberFormat;
 import java.text.*;
 
+/**
+  * Asks for price of items until a zero input
+  * Calculates subtotal, tax, and total of items
+  * @author: P.Tran
+  */
+
 public class Review6{
   public static void main(String[] args) throws IOException{
   

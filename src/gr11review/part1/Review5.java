@@ -2,6 +2,12 @@ package gr11review.part1;
 
 import java.io.*;
 
+/**
+  * Asks for yearly amount, compound interest rate, and target amount
+  * Prints number of years to reach target amount
+  * @author: P.Tran
+  */
+
 public class Review5{
   public static void main(String[] args) throws IOException{
     

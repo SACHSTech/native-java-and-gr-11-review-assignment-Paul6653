@@ -4,6 +4,13 @@ import java.io.*;
 import java.text.NumberFormat;
 import java.text.*;
 
+/**
+  * Asks how many items to purchase
+  * Asks for prices of items one by one
+  * Prints subtotal, tax, and total of items
+  * @author: P.Tran
+  */
+
 public class Review4{
   public static void main(String[] args) throws IOException{
       

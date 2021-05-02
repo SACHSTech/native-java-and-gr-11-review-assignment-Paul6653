@@ -2,6 +2,12 @@ package gr11review.part1;
 
 import java.io.*;
 
+/**
+  * Simulates 1000 pulls of a slot machine and prints them
+  * Counts triples and prints them
+  * @author: P.Tran
+  */
+
 public class Review8{
   public static void main(String[] args) throws IOException{
     
